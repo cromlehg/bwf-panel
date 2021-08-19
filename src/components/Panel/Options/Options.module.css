@@ -1,0 +1,23 @@
+.options__header_col_id {
+    min-width: 10px;
+}
+
+.options__header_col_name {
+    min-width: 400px;
+}
+
+.options__header_col_value {
+    min-width: 800px;
+}
+
+.options__body_col_id {
+    min-width: 10px;
+}
+
+.options__body_col_name {
+    min-width: 400px;
+}
+
+.options__body_col_value {
+    min-width: 800px;
+}

@@ -1,5 +1,6 @@
 .accounts__header_col_id {
-    min-width: 10px;
+    min-width: 20px;
+    ext-align: right;
 }
 
 .accounts__header_col_name {
@@ -11,7 +12,8 @@
 }
 
 .accounts__body_col_id {
-    min-width: 10px;
+    min-width: 20px;
+    ext-align: right;
 }
 
 .accounts__body_col_name {

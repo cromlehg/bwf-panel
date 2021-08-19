@@ -1,4 +1,4 @@
-import {addOptionActionCreator, addOptionsActionCreator} from "../../reducers/options-reducer";
+import {addOptionsActionCreator} from "../../reducers/options-reducer";
 import Options from "./Options";
 import {connect} from "react-redux";
 
@@ -7,9 +7,6 @@ let mapStateToProps = (state) => ({
 })
 
 let mapDispatchToProps = (dispatch) => ({
-	addOption: (name, value) => {
-		dispatch(addOptionActionCreator(name, value));
-	},
 	addOptions: (options) => {
 		dispatch(addOptionsActionCreator(options));
 	},
